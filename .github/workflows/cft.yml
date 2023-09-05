@@ -46,7 +46,7 @@ Resources:
             WorkerType: G.1X
             Command:
                 Name: glueetl
-                ScriptLocation: s3://github-scrpits/Datawarehouse_Script.py
+                ScriptLocation: s3://mybcktt1/Datawarehouse_Script.py
 
     
     GlueCrawler:
@@ -90,7 +90,7 @@ Resources:
     MyAthenaWorkGroup:
         Type: AWS::Athena::WorkGroup
         Properties:
-            Name: gitworkgrp
+            Name: gitworkgrp1
             Description: workgroup for Athena
             State: ENABLED
             WorkGroupConfiguration:
