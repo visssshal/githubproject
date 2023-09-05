@@ -41,7 +41,7 @@ Resources:
             GlueVersion: 4.0
             MaxRetries: 0
             NumberOfWorkers: 6
-            Role: arn:aws:iam::467280971091:role/LabRole
+            Role: arn:aws:iam::179211392568:role/LabRole
             Timeout: 40
             WorkerType: G.1X
             Command:
@@ -57,7 +57,7 @@ Resources:
             Targets:
                 S3Targets:
                     - Path: s3://datalakegrp04/datawarehouse/
-            Role: arn:aws:iam::467280971091:role/LabRole
+            Role: arn:aws:iam::179211392568:role/LabRole
     
   
     WorkflowStartTrigger:
